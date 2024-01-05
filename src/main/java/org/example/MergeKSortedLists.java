@@ -3,7 +3,7 @@ package org.example;
 import java.util.PriorityQueue;
 
 public class MergeKSortedLists {
-    public ListNode mergeKLists(ListNode[] lists) {
+   /* public ListNode mergeKLists(ListNode[] lists) {
         FileWriter fileWriter = new FileWriter("MergeKSortedLists");
         PriorityQueue<ListNode> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
 
@@ -80,5 +80,5 @@ public class MergeKSortedLists {
 
         System.out.println("Merged List:");
         printList(result);
-    }
+    }*/
 }
